@@ -13,36 +13,28 @@ https://youtu.be/KQGPMeEr8XY
 
 Las fuentes dan contexto al experimento. El simulador no implementa todos los modelos que aparecen en ellas. Se incluyen artículos, un libro y un informe de investigación; el tipo de publicación se indica cuando corresponde.
 
-01 · El dilema: una respuesta que parece una decisión
-1. Philippa Foot (1967), The Problem of Abortion and the Doctrine of the Double Effect
-2. Judith Jarvis Thomson (1985), The Trolley Problem
-Repositorio relacionado: Intelligence-from-scratch
-02 · Qué hacemos las personas cuando aprendemos y decidimos
-1. Howard Gardner (1983), Frames of Mind: The Theory of Multiple Intelligences — libro.
-2. Jonathan St. B. T. Evans y Keith E. Stanovich (2013), Dual-Process Theories of Higher Cognition: Advancing the Debate
-3. David C. Cooper (2005), Donald O. Hebb’s Synapse and Learning Rule: A History and Commentary
-4. Richard C. Atkinson y Richard M. Shiffrin (1968), Human Memory: A Proposed System and its Control Processes
-03 · Lógica formal y computabilidad
-1. Alan M. Turing (1936/1937), On Computable Numbers, with an Application to the Entscheidungsproblem
-2. Alonzo Church (1936), A Note on the Entscheidungsproblem
-3. George Boole (1847), The Mathematical Analysis of Logic — obra fundacional.
-4. Gottlob Frege (1879), Begriffsschrift
-5. David Hilbert y Wilhelm Ackermann (1928), Grundzüge der theoretischen Logik
-04 · Enigma: la guerra y el trabajo colectivo
-1. Bletchley Park, Alan Turing: Hut 8, Enigma and the Bombe — fuente histórica.
-2. Bletchley Park, The Bombe and Naval Enigma: Teachers’ Notes — fuente institucional.
-05 · Turing en 1948: máquinas educables
-1. Alan M. Turing (1948), Intelligent Machinery — informe del National Physical Laboratory.
-2. Warren S. McCulloch y Walter Pitts (1943), A Logical Calculus of the Ideas Immanent in Nervous Activity
-3. B. Jack Copeland y Diane Proudfoot, On Alan Turing’s Anticipation of Connectionism
-06 · De redes neuronales a modelos de lenguaje
-1. Alan M. Turing (1948), Intelligent Machinery
-07 · Turing en 1950: ¿pueden pensar las máquinas?
-1. Alan M. Turing (1950), Computing Machinery and Intelligence
-2. Alan M. Turing (1948), Intelligent Machinery
-08 · Volver a GPT: argumento, decisión y agencia
-1. Alan M. Turing (1950), Computing Machinery and Intelligence
-2. Alan M. Turing (1948), Intelligent Machinery
+1. [Philippa Foot (1967), The Problem of Abortion and the Doctrine of the Double Effect](https://sites.pitt.edu/~mthompso/readings/foot.pdf)
+2. [Judith Jarvis Thomson (1985), The Trolley Problem](https://doi.org/10.2307/796133)
+Repositorio relacionado: [Intelligence-from-scratch](https://github.com/Nicolas-Melluso/Intelligence-from-scratch)
+1. [Howard Gardner (1983), Frames of Mind: The Theory of Multiple Intelligences](https://books.google.com/books/about/Frames_of_Mind.html?id=81GfBQAAQBAJ) — libro.
+2. [Jonathan St. B. T. Evans y Keith E. Stanovich (2013), Dual-Process Theories of Higher Cognition: Advancing the Debate](https://doi.org/10.1177/1745691612460685)
+3. [David C. Cooper (2005), Donald O. Hebb’s Synapse and Learning Rule: A History and Commentary](https://doi.org/10.1016/j.neubiorev.2004.09.009)
+4. [Richard C. Atkinson y Richard M. Shiffrin (1968), Human Memory: A Proposed System and its Control Processes](https://doi.org/10.1016/S0079-7421(08\)60422-3)
+1. [Alan M. Turing (1936/1937), On Computable Numbers, with an Application to the Entscheidungsproblem](https://doi.org/10.1112/plms/s2-42.1.230)
+2. [Alonzo Church (1936), A Note on the Entscheidungsproblem](https://doi.org/10.2307/2269326)
+3. [George Boole (1847), The Mathematical Analysis of Logic](https://www.gutenberg.org/ebooks/36884) — obra fundacional.
+4. [Gottlob Frege (1879), Begriffsschrift](https://www.cs.cornell.edu/courses/cs4860/2009sp/Begriffsschrift.pdf)
+5. [David Hilbert y Wilhelm Ackermann (1928), Grundzüge der theoretischen Logik](https://books.google.com/books/about/Grundz%C3%BCge_der_theoretischen_Logik.html?id=fralQxl4aCIC)
+1. [Bletchley Park, Alan Turing: Hut 8, Enigma and the Bombe](https://bletchleypark.org.uk/wp-content/uploads/record_attachments/1800.pdf) — fuente histórica.
+2. [Bletchley Park, The Bombe and Naval Enigma: Teachers’ Notes](https://bletchleypark.org.uk/wp-content/uploads/2021/10/teachers-notes-ks3-2019.pdf) — fuente institucional.
+1. [Alan M. Turing (1948), Intelligent Machinery](https://www.npl.co.uk/getattachment/about-us/History/Famous-faces/Alan-Turing/80916595-Intelligent-Machinery.pdf) — informe del National Physical Laboratory.
+2. [Warren S. McCulloch y Walter Pitts (1943), A Logical Calculus of the Ideas Immanent in Nervous Activity](https://doi.org/10.1007/BF02478259)
+3. [B. Jack Copeland y Diane Proudfoot, On Alan Turing’s Anticipation of Connectionism](https://link.springer.com/article/10.1007/BF00413694)
+1. [Alan M. Turing (1948), Intelligent Machinery](https://www.npl.co.uk/getattachment/about-us/History/Famous-faces/Alan-Turing/80916595-Intelligent-Machinery.pdf)
+1. [Alan M. Turing (1950), Computing Machinery and Intelligence](https://doi.org/10.1093/mind/LIX.236.433)
+2. [Alan M. Turing (1948), Intelligent Machinery](https://www.npl.co.uk/getattachment/about-us/History/Famous-faces/Alan-Turing/80916595-Intelligent-Machinery.pdf)
+1. [Alan M. Turing (1950), Computing Machinery and Intelligence](https://doi.org/10.1093/mind/LIX.236.433)
+2. [Alan M. Turing (1948), Intelligent Machinery](https://www.npl.co.uk/getattachment/about-us/History/Famous-faces/Alan-Turing/80916595-Intelligent-Machinery.pdf)
 
 ## Del concepto al experimento
 
