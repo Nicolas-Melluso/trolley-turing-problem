@@ -13,45 +13,36 @@ https://youtu.be/KQGPMeEr8XY
 
 Las fuentes dan contexto al experimento. El simulador no implementa todos los modelos que aparecen en ellas. Se incluyen artículos, un libro y un informe de investigación; el tipo de publicación se indica cuando corresponde.
 
-### El dilema del tranvía: acciones, intenciones y consecuencias
-
-1. Philippa Foot — *The Problem of Abortion and the Doctrine of the Double Effect* (1967).  
-   Artículo que introduce un antecedente central del dilema y examina las diferencias entre intención, consecuencias previstas y deberes.  
-   [Texto completo, copia académica en Pittsburgh](https://sites.pitt.edu/~mthompso/readings/foot.pdf).  
-   [Reedición en *Virtues and Vices* (Oxford, 2002)](https://doi.org/10.1093/0199252866.003.0002).
-2. Judith Jarvis Thomson — *The Trolley Problem* (1985).  
-   Análisis de las variantes del problema y de lo que cambia cuando intervenimos para redistribuir el daño.  
-   [Artículo en *The Yale Law Journal*](https://doi.org/10.2307/796133).  
-   [PDF en el repositorio de Yale](https://openyls.law.yale.edu/bitstream/handle/20.500.13051/16338/56_94YaleLJ1395_1984_1985_.pdf).
-
-### Cómo razonamos las personas
-
-1. Jonathan St. B. T. Evans y Keith E. Stanovich — *Dual-Process Theories of Higher Cognition: Advancing the Debate* (2013).  
-   Marco para discutir procesos más automáticos y procesos más deliberados, y su relación con razonamiento y memoria de trabajo.  
-   https://doi.org/10.1177/1745691612460685  
-   [Registro académico de la Universidad de Plymouth](https://researchportal.plymouth.ac.uk/en/publications/dual-process-theories-of-higher-cognition-advancing-the-debate/).
-
-### De las palabras a las reglas: lógica y procedimientos
-
-1. George Boole — *The Mathematical Analysis of Logic* (1847).  
-   Libro fundacional sobre el tratamiento algebraico de la lógica y el razonamiento deductivo. Contexto histórico para pasar de enunciados a operaciones explícitas.  
-   https://www.gutenberg.org/ebooks/36884
-2. Alonzo Church — *A Note on the Entscheidungsproblem* (1936).  
-   Resultado sobre los límites de un procedimiento general de decisión en lógica. Resolver las pocas alternativas de esta demo no equivale a resolver ese problema general.  
-   [Artículo original, copia académica en MIT](https://people.csail.mit.edu/brooks/idocs/church_ent.pdf).
-
-### Turing: computar, aprender y discutir si una máquina piensa
-
-1. Alan M. Turing — *On Computable Numbers, with an Application to the Entscheidungsproblem* (1936–1937).  
-   Fundamentos de computabilidad y de la máquina universal. El manuscrito fue recibido en 1936; la ficha editorial del volumen indica 1937.  
-   https://doi.org/10.1112/plms/s2-42.1.230  
-   [PDF en Stanford](https://theory.stanford.edu/~trevisan/cs172-07/turing36.pdf).
-2. Alan M. Turing — *Intelligent Machinery* (1948).  
-   Informe para el National Physical Laboratory sobre máquinas inteligentes, redes desorganizadas y organización mediante entrenamiento. Es contexto histórico: el motor de reglas de este proyecto no aprende.  
-   [Texto del informe](https://intelligentmachinerycourse.com/wp-content/uploads/2018/08/turing-intelligent-machinery-1948.pdf).
-3. Alan M. Turing — *Computing Machinery and Intelligence* (1950).  
-   Artículo que examina la pregunta por el pensamiento de las máquinas y propone el juego de imitación. Permite volver a la distinción entre observar una respuesta y explicar el mecanismo que la produjo.  
-   https://academic.oup.com/mind/article/LIX/236/433/986238
+01 · El dilema: una respuesta que parece una decisión
+1. Philippa Foot (1967), The Problem of Abortion and the Doctrine of the Double Effect
+2. Judith Jarvis Thomson (1985), The Trolley Problem
+Repositorio relacionado: Intelligence-from-scratch
+02 · Qué hacemos las personas cuando aprendemos y decidimos
+1. Howard Gardner (1983), Frames of Mind: The Theory of Multiple Intelligences — libro.
+2. Jonathan St. B. T. Evans y Keith E. Stanovich (2013), Dual-Process Theories of Higher Cognition: Advancing the Debate
+3. David C. Cooper (2005), Donald O. Hebb’s Synapse and Learning Rule: A History and Commentary
+4. Richard C. Atkinson y Richard M. Shiffrin (1968), Human Memory: A Proposed System and its Control Processes
+03 · Lógica formal y computabilidad
+1. Alan M. Turing (1936/1937), On Computable Numbers, with an Application to the Entscheidungsproblem
+2. Alonzo Church (1936), A Note on the Entscheidungsproblem
+3. George Boole (1847), The Mathematical Analysis of Logic — obra fundacional.
+4. Gottlob Frege (1879), Begriffsschrift
+5. David Hilbert y Wilhelm Ackermann (1928), Grundzüge der theoretischen Logik
+04 · Enigma: la guerra y el trabajo colectivo
+1. Bletchley Park, Alan Turing: Hut 8, Enigma and the Bombe — fuente histórica.
+2. Bletchley Park, The Bombe and Naval Enigma: Teachers’ Notes — fuente institucional.
+05 · Turing en 1948: máquinas educables
+1. Alan M. Turing (1948), Intelligent Machinery — informe del National Physical Laboratory.
+2. Warren S. McCulloch y Walter Pitts (1943), A Logical Calculus of the Ideas Immanent in Nervous Activity
+3. B. Jack Copeland y Diane Proudfoot, On Alan Turing’s Anticipation of Connectionism
+06 · De redes neuronales a modelos de lenguaje
+1. Alan M. Turing (1948), Intelligent Machinery
+07 · Turing en 1950: ¿pueden pensar las máquinas?
+1. Alan M. Turing (1950), Computing Machinery and Intelligence
+2. Alan M. Turing (1948), Intelligent Machinery
+08 · Volver a GPT: argumento, decisión y agencia
+1. Alan M. Turing (1950), Computing Machinery and Intelligence
+2. Alan M. Turing (1948), Intelligent Machinery
 
 ## Del concepto al experimento
 
