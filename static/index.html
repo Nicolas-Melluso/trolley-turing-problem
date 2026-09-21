@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tranvía Lab · De una regla a una decisión</title>
+  <link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar"><a href="/" class="brand"><span class="brand-icon">⑂</span> TRANVÍA<span class="muted"> / LAB</span></a><span class="edition">EXPERIMENTOS SOBRE RAZONAMIENTO · 001</span><button id="presentation" class="quiet">Modo presentación <span>↗</span></button></header>
+  <main>
+    <div class="intro"><div><div class="eyebrow">UN DILEMA. DOS VÍAS. TUS REGLAS.</div><h1>De una regla<br>a una <em>decisión.</em></h1></div><p>El mismo escenario puede producir decisiones distintas.<br>Cambiá el criterio y mirá qué sucede.</p></div>
+    <div class="workspace">
+      <section class="scene-panel" aria-label="Simulación del tranvía">
+        <div class="scene-top"><span class="live-label"><i></i> ENTORNO SIMULADO</span><span id="phase" role="status">LISTO PARA DECIDIR</span></div>
+        <canvas id="scene" aria-label="Tren que avanza hacia una bifurcación, con personas en ambas vías. La palanca selecciona la vía." role="img"></canvas>
+        <div class="scene-bottom"><span id="route-label">RECORRIDO · VÍA PRINCIPAL</span><button id="lever" class="lever-button" aria-label="Accionar palanca: alternar entre vía principal y desvío">↔ Accionar palanca <kbd>L</kbd></button></div>
+        <div id="outcome" class="outcome" hidden aria-live="polite"><span class="eyebrow">RESULTADO DE LA SIMULACIÓN</span><h2 id="outcome-title"></h2><p id="outcome-text"></p><button id="again" class="quiet">Volver a experimentar ↻</button></div>
+      </section>
+      <aside class="controls">
+        <div class="control-head"><span class="eyebrow">01 / CONFIGURÁ EL MUNDO</span><h2>¿Quiénes están en las vías?</h2></div>
+        <label class="count-label" for="main-count"><span><i class="dot main-dot"></i> Vía principal</span><output id="main-value">5</output></label>
+        <input type="range" id="main-count" min="0" max="12" value="5">
+        <label class="count-label" for="branch-count"><span><i class="dot branch-dot"></i> Desvío</span><output id="branch-value">1</output></label>
+        <input type="range" id="branch-count" min="0" max="12" value="1">
+        <div class="presets"><button data-preset="5,1" class="chip">Clásico 5:1</button><button data-preset="1,5" class="chip">Inverso 1:5</button><button data-preset="3,3" class="chip">Empate 3:3</button></div>
+        <div class="section-line"></div>
+        <span class="eyebrow">02 / ELEGÍ CÓMO DECIDIR</span>
+        <div class="mode-toggle" role="group" aria-label="Modo de decisión"><button id="manual" aria-pressed="true">Yo decido</button><button id="automatic" aria-pressed="false">Regla en Python</button></div>
+        <div id="manual-info" class="explanation">La palanca está en tus manos. Podés cambiarla hasta que el tren llegue a la bifurcación.</div>
+        <div id="agent-info" hidden class="explanation"><strong>Control por agente MCP</strong><p id="agent-status">Esperando una decisión.</p><button id="release-agent" class="quiet">Recuperar control manual</button></div>
+        <div id="auto-settings" hidden><label for="criterion" class="sr-only">Criterio de decisión</label><select id="criterion"><option value="minimize">Minimizar víctimas</option><option value="nonintervention">No intervenir</option><option value="protect_main">Proteger la vía principal</option></select><p id="criterion-help" class="explanation">Compara ambos recuentos. En empate, mantiene la vía principal.</p></div>
+        <label class="speed-label" for="speed">Velocidad de la demo <select id="speed"><option value="0.65">Lenta</option><option value="1" selected>Normal</option><option value="1.6">Rápida</option></select></label>
+        <button id="start" class="primary">Iniciar recorrido <span>→</span></button>
+        <div class="secondary-actions"><button id="pause" class="quiet" disabled>Pausar</button><button id="reset" class="quiet">Reiniciar ↻</button></div>
+        <p id="error" role="alert" hidden></p>
+      </aside>
+    </div>
+    <section class="reasoning"><div class="reasoning-head"><div><span class="eyebrow">03 / ABRÍ LA DECISIÓN</span><h2>Lo que hay detrás de la palanca.</h2></div><span class="tag" id="mechanism-tag">REGLAS EXPLÍCITAS · SIN LLM</span></div>
+      <div class="trace-grid"><article><span class="step">01 — REPRESENTACIÓN</span><h3>Un mundo convertido en datos.</h3><pre id="state-code"></pre></article><article><span class="step">02 — CRITERIO</span><h3>La regla que elegimos.</h3><pre id="rule-code">accion = decision_humana</pre><p id="reason-text">Todavía no se aplicó una regla automática.</p></article><article><span class="step">03 — CONSECUENCIA</span><h3>Dos acciones posibles.</h3><div class="comparison"><span>Mantener <b id="keep-count">5</b></span><span>Desviar <b id="divert-count">1</b></span></div><p>Personas afectadas previstas. En este mundo, las consecuencias se asumen ciertas.</p></article></div>
+      <details><summary>¿Qué estamos demostrando?</summary><p>Una computadora puede representar una situación y ejecutar un criterio escrito por una persona. La animación aplica esa acción a un entorno: representación → evaluación → acción → resultado. El modo Python usa reglas explícitas; un LLM externo puede elegir y ejecutar acciones mediante MCP. El simulador no entrena modelos.</p><p>Los criterios son reglas didácticas, no teorías éticas completas. El recuento no determina por sí solo lo correcto. La justificación del agente es una explicación pública de su decisión; la demo no muestra el mecanismo interno de GPT ni demuestra conciencia o comprensión.</p><p>La escena representa un tranvía sin frenos. Las personas permanecen inmóviles y cada recorrido es determinista. La palanca se bloquea al cruzar la bifurcación. El resultado se presenta sin imágenes explícitas.</p></details>
+    </section>
+    <section class="history"><div class="history-heading"><h2>Cuaderno de experimentos</h2><button id="export" class="quiet" disabled>Descargar JSON ↓</button></div><p id="empty-history">Probá dos criterios sobre el mismo escenario. Tus recorridos van a aparecer acá.</p><ol id="history-list"></ol></section>
+    <footer><span>TRANVÍA / LAB</span><span>Python + un pequeño mundo en el navegador. Sin dependencias externas.</span><span><kbd>L</kbd> palanca · <kbd>Espacio</kbd> pausa · <kbd>R</kbd> reiniciar</span></footer>
+  </main><script src="/app.js"></script>
+</body>
+</html>
